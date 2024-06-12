@@ -169,7 +169,7 @@
   width: 592px;
   height: 857px;
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--white);
   display: none;
   max-width: 100%;
 }
@@ -489,7 +489,7 @@
 }
 .signup-illustration {
   flex: 1;
-  background-color: var(--color-white);
+  background-color: var(--white);
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
@@ -518,7 +518,7 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-29xl);
-  color: var(--color-white);
+  color: var(--white);
   font-family: var(--font-poppins);
 }
 .root,

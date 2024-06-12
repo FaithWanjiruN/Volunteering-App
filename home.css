@@ -48,7 +48,7 @@
   gap: var(--gap-xl);
   text-align: left;
   font-size: var(--body-text-size);
-  color: var(--color-white);
+  color: var(--white);
   font-family: var(--body-text);
 }
 .home-content-wrapper {
@@ -467,7 +467,7 @@
 .events1 {
   box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
   border-radius: var(--br-xs);
-  background-color: var(--color-white);
+  background-color: var(--white);
   border: 1px solid var(--color-whitesmoke);
   box-sizing: border-box;
   display: flex;
@@ -507,7 +507,7 @@
 .events2 {
   box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
   border-radius: var(--br-xs);
-  background-color: var(--color-white);
+  background-color: var(--white);
   border: 1px solid var(--color-whitesmoke);
   box-sizing: border-box;
   display: flex;
@@ -546,7 +546,7 @@
 .events3 {
   box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
   border-radius: var(--br-xs);
-  background-color: var(--color-white);
+  background-color: var(--white);
   border: 1px solid var(--color-whitesmoke);
   box-sizing: border-box;
   display: flex;
@@ -724,7 +724,7 @@
 .log-entries {
   flex: 1;
   border-radius: var(--br-xs);
-  background-color: var(--color-white);
+  background-color: var(--white);
   flex-direction: column;
   padding: var(--padding-50xl) var(--padding-18xl) var(--padding-58xl)
     var(--padding-19xl);
@@ -797,7 +797,7 @@
 .vector-parent {
   flex: 1;
   border-radius: var(--br-xs);
-  background-color: var(--color-white);
+  background-color: var(--white);
   flex-direction: column;
   justify-content: flex-start;
   padding: var(--padding-50xl) var(--padding-18xl) var(--padding-58xl)
@@ -855,7 +855,7 @@
 .button7 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-sm) 66px;
+  padding: var(--padding-sm) var(--padding-47xl);
   background-color: var(--color-darkslategray-100);
   box-shadow: var(--button-shadow);
   border-radius: var(--br-xl);
@@ -1060,7 +1060,7 @@
 .home {
   width: 100%;
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--white);
   overflow: hidden;
   flex-direction: column;
   align-items: flex-end;
@@ -1152,7 +1152,7 @@
   }
   .cards {
     gap: var(--spacing-sm);
-    padding-bottom: 49px;
+    padding-bottom: var(--padding-30xl);
     box-sizing: border-box;
     grid-template-columns: minmax(289px, 1fr);
   }
