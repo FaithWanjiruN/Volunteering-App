@@ -71,7 +71,7 @@
   display: flex;
 }
 .navigation {
-  background-color: #679a8c;
+  background-color: var(--color-cadetblue);
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
@@ -111,7 +111,7 @@
 .find-opportunities-to-container {
   margin: 0;
   height: 84px;
-  font-size: 36px;
+  font-size: var(--font-size-17xl);
   font-weight: 700;
   font-family: inherit;
 }
@@ -172,7 +172,7 @@
 .forward-wrapper {
   flex-direction: column;
   justify-content: flex-start;
-  padding: 17px 0 0;
+  padding: var(--padding-mid) 0 0;
 }
 .learn-more {
   width: 324px;
@@ -190,7 +190,7 @@
 }
 .frame-container {
   width: 653px;
-  gap: 34px;
+  gap: var(--gap-15xl);
   flex-shrink: 0;
   debug_commit: 69da668;
   max-width: 107%;
@@ -414,7 +414,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 60px 126px var(--padding-37xl);
+  padding: 0 var(--padding-41xl) 126px var(--padding-37xl);
   box-sizing: border-box;
   font-size: var(--font-size-5xl);
 }
@@ -626,7 +626,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-11xl) 99px var(--padding-12xl);
+  padding: 0 var(--padding-11xl) var(--padding-80xl) var(--padding-12xl);
   box-sizing: border-box;
   max-width: 100%;
   text-align: center;
@@ -832,7 +832,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: 57px;
+  gap: var(--gap-38xl);
   max-width: 100%;
 }
 .updateadmin {
@@ -895,7 +895,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 21px 306px var(--padding-xl);
+  padding: 0 var(--padding-2xl) 306px var(--padding-xl);
   max-width: 100%;
   text-align: center;
   font-size: var(--heading-size);
@@ -931,7 +931,7 @@
 }
 .social-icons {
   flex-direction: row;
-  gap: 8px;
+  gap: var(--gap-5xs);
 }
 .connect-content,
 .connect-content-wrapper {
@@ -1125,7 +1125,7 @@
     line-height: 43px;
   }
   .frame-container {
-    gap: 17px;
+    gap: var(--gap-mid);
   }
   .image-2-icon {
     min-width: 100%;
@@ -1196,7 +1196,7 @@
     line-height: 24px;
   }
   .find-opportunities-to-container {
-    font-size: 22px;
+    font-size: var(--font-size-3xl);
     line-height: 32px;
   }
   .find-volunteer-opportunities {
@@ -1314,6 +1314,6 @@
     line-height: 29px;
   }
   .home {
-    gap: 15px;
+    gap: var(--gap-mini);
   }
 }
