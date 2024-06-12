@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="root">
+      <main class="sign-up">
+        <section class="frame-parent">
+          <div class="rectangle-parent">
+            <div class="frame-child"></div>
+            <img
+              class="unsplashsyto3xs06fu-icon"
+              alt=""
+              src="./public/unsplashsyto3xs06fu@2x.png"
+            />
+          </div>
+          <div class="login-form">
+            <div class="volunteer-title-parent">
+              <div class="volunteer-title">
+                <h1 class="lets-help-you">
+                  Let’s Help you Volunteer and Make a Change!
+                </h1>
+                <div class="component-2-wrapper">
+                  <button class="component-2">
+                    <img class="icons" alt="" src="./public/icons.svg" />
+
+                    <a class="button">Learn More</a>
+                    <div class="icons-wrapper">
+                      <img class="icons1" alt="" src="./public/icons1.svg" />
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="legal-info">
+                <div class="legal-container">
+                  <div class="terms-of-use">Terms Of Use</div>
+                  <div class="privacy">Privacy</div>
+                  <div class="help">Help</div>
+                  <div class="cookie-preferences">Cookie preferences</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="signup-illustration">
+            <div class="signup-illustration-child"></div>
+            <img
+              class="evamenu-fill-icon"
+              loading="lazy"
+              alt=""
+              src="./public/evamenufill.svg"
+            />
+
+            <div class="signup-form">
+              <div class="signup-call-to-action-parent">
+                <div class="signup-call-to-action">
+                  <h3 class="sign-up-to">
+                    Sign Up to Start your journey today
+                  </h3>
+                </div>
+                <div class="input-fields">
+                  <div class="icons-parent">
+                    <img
+                      class="icons2"
+                      loading="lazy"
+                      alt=""
+                      src="./public/icons-1.svg"
+                    />
+
+                    <div class="username-password-input-wrapper">
+                      <div class="username-password-input">
+                        <div class="choose-a-username">CHOOSE A USERNAME</div>
+                        <div class="input-dividers"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="icons-group">
+                    <img
+                      class="icons3"
+                      loading="lazy"
+                      alt=""
+                      src="./public/icons-2.svg"
+                    />
+
+                    <div class="frame-wrapper">
+                      <div class="choose-a-password-parent">
+                        <div class="choose-a-password">CHOOSE A PASSWORD</div>
+                        <div class="frame-item"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="repeat-password">
+                    <img
+                      class="icons4"
+                      loading="lazy"
+                      alt=""
+                      src="./public/icons-2.svg"
+                    />
+
+                    <div class="repeat-password-input">
+                      <div class="repeat-your-password">
+                        REPEAT YOUR PASSWORD
+                      </div>
+                      <div class="repeat-input-divider"></div>
+                    </div>
+                  </div>
+                  <div class="submit-button">
+                    <div class="submit-button-component">
+                      <button class="component-3" id="component3">
+                        <img class="icons5" alt="" src="./public/icons.svg" />
+
+                        <b class="button1">Sign Up</b>
+                        <img class="icons6" alt="" src="./public/icons1.svg" />
+                      </button>
+                      <div class="existing-account">
+                        <div class="existing-account-link">
+                          <div class="i-already-have" id="iAlreadyHave">
+                            I Already Have An Account
+                          </div>
+                          <div class="existing-account-divider"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var component3 = document.getElementById("component3");
+      if (component3) {
+        component3.addEventListener("click", function (e) {
+          // Please sync "Home" to the project
+        });
+      }
+
+      var iAlreadyHave = document.getElementById("iAlreadyHave");
+      if (iAlreadyHave) {
+        iAlreadyHave.addEventListener("click", function (e) {
+          window.location.href = "./sign-in.html";
+        });
+      }
+    </script>
+  </body>
+</html>
