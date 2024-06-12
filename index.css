@@ -465,7 +465,7 @@
 .input-fields {
   align-self: stretch;
   align-items: flex-start;
-  gap: 39px;
+  gap: var(--gap-20xl);
   font-size: var(--font-size-lg);
   color: var(--color-darkgray);
 }
@@ -493,7 +493,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 56px var(--padding-45xl) 202px;
+  padding: var(--padding-37xl) var(--padding-45xl) 202px;
   gap: 175px;
   min-width: 385px;
   z-index: 2;
@@ -555,7 +555,7 @@
     flex: 1;
   }
   .signup-illustration {
-    padding-top: 36px;
+    padding-top: var(--padding-17xl);
     padding-bottom: var(--padding-112xl);
     box-sizing: border-box;
   }
@@ -611,7 +611,7 @@
     gap: var(--gap-xl);
   }
   .input-fields {
-    gap: 19px;
+    gap: var(--gap-lgi);
   }
   .signup-call-to-action-parent {
     gap: var(--gap-12xl);

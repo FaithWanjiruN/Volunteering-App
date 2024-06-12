@@ -1,0 +1,1319 @@
+.items {
+  width: 187px;
+  display: none;
+}
+.find-organizations,
+.home1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.find-organizations {
+  white-space: nowrap;
+}
+.home-donations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.events {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.home-donations1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.donate {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.home-content,
+.home-content-wrapper {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.home-content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-white);
+  font-family: var(--body-text);
+}
+.home-content-wrapper {
+  width: 511px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logo-1-icon {
+  height: 71px;
+  width: 68px;
+  position: relative;
+  object-fit: cover;
+}
+.discover,
+.navigation {
+  align-self: stretch;
+  display: flex;
+}
+.navigation {
+  background-color: #679a8c;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-9xl) var(--padding-19xl) var(--padding-8xl) 101px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.discover {
+  height: 31px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 300;
+  align-items: center;
+  flex-shrink: 0;
+}
+.find-opportunities-to,
+.volunteer-and-give {
+  margin: 0;
+}
+.find-opportunities-to-container1 {
+  width: 100%;
+}
+.discover-local-volunteer,
+.find-opportunities-to-container {
+  width: 514px;
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.find-opportunities-to-container {
+  margin: 0;
+  height: 84px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.discover-local-volunteer {
+  height: 96px;
+  font-size: var(--font-size-base);
+}
+.discover-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17.5px;
+  max-width: 100%;
+}
+.learn-more1 {
+  position: relative;
+  font-size: var(--body-text-size);
+  letter-spacing: 0.05em;
+  line-height: 150%;
+  font-weight: 900;
+  font-family: var(--body-text);
+  color: var(--color-whitesmoke);
+  text-align: center;
+  cursor: pointer;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-darkslategray-100);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button4:hover,
+.button5:hover,
+.button6:hover,
+.button7:hover {
+  background-color: var(--color-teal);
+}
+.forward-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.forward-wrapper,
+.learn-more {
+  display: flex;
+  align-items: flex-start;
+}
+.forward-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 17px 0 0;
+}
+.learn-more {
+  width: 324px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frame-container,
+.hero-content-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  width: 653px;
+  gap: 34px;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 107%;
+}
+.hero-content-inner {
+  width: 613px;
+  padding: var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+  min-width: 613px;
+  max-width: 100%;
+}
+.image-2-icon {
+  height: 571px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 404px;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.hero-content,
+.hero-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.hero-content {
+  flex: 1;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.hero-content-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 73px 78px 72px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--colors-black-900);
+  font-family: var(--body-text);
+}
+.find-volunteer-opportunities {
+  margin: 0;
+  width: 794px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.find-volunteer-opportunities-n-wrapper {
+  width: 1228px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.filter-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fdfdfb;
+  width: 1306px;
+  height: 474px;
+}
+.filter-options-icon,
+.filter-options-icon1,
+.filter-two-icon {
+  position: absolute;
+  top: 18px;
+  left: 35px;
+  border-radius: var(--br-xs);
+  width: 392px;
+  height: 486px;
+  object-fit: cover;
+  z-index: 1;
+}
+.filter-options-icon,
+.filter-options-icon1 {
+  top: 19px;
+  left: 468px;
+  width: 393px;
+  height: 485px;
+}
+.filter-options-icon1 {
+  left: 902px;
+  width: 373px;
+}
+.search-filters {
+  align-self: stretch;
+  height: 504px;
+  position: relative;
+}
+.frame-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.opportunities-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 12px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.childrens-homes {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.category-options {
+  width: 344px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hospitals-clinics {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.category-options1 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.elderly-homes {
+  width: 344px;
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.category-items {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 78px;
+  max-width: 100%;
+}
+.volunteer-now {
+  position: relative;
+  font-size: var(--body-text-size);
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-whitesmoke);
+  text-align: center;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) 65px;
+  background-color: var(--color-darkslategray-100);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-wrapper {
+  width: 1188px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.button-wrapper,
+.categories,
+.category-list {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.category-list {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 76px;
+}
+.categories {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 60px 126px var(--padding-37xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.current-events {
+  width: 794px;
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.events-header {
+  width: 1224px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.event-images-icon,
+.planting-trees {
+  align-self: stretch;
+  position: relative;
+}
+.planting-trees {
+  line-height: 150%;
+  font-weight: 500;
+}
+.event-images-icon {
+  height: 211px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.date-20062024,
+.location-nairobi-karura,
+.time-1000-am {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.time-1000-am {
+  white-space: nowrap;
+}
+.events1 {
+  box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-12xl) var(--padding-6xl);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.childrens-clothes-donation {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.events-child {
+  align-self: stretch;
+  height: 211px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.date-12062024,
+.location-nairobi-zimmerman,
+.time-0700-to {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.time-0700-to {
+  white-space: pre-wrap;
+  flex-shrink: 0;
+}
+.events2 {
+  box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-12xl) var(--padding-6xl);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.usiu-frieda-browns {
+  width: 321px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.events-item {
+  width: 317px;
+  height: 211px;
+  position: relative;
+  object-fit: cover;
+}
+.date-200620241,
+.location-nairobi-roysambu,
+.time-1000pm {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.time-1000pm {
+  white-space: nowrap;
+}
+.events3 {
+  box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-6xl)
+    var(--spacing-sm);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.more-events {
+  position: relative;
+  font-size: var(--body-text-size);
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-whitesmoke);
+  text-align: center;
+}
+.button6,
+.cards {
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-xl);
+  background-color: var(--color-darkslategray-100);
+  width: 318px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -29px;
+  left: 459px;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-xl);
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.cards {
+  align-self: stretch;
+  display: grid;
+  justify-content: flex-start;
+  padding: 0 0 75px;
+  position: relative;
+  gap: var(--spacing-sm);
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(289px, 1fr));
+  text-align: left;
+  font-size: var(--body-text-size);
+}
+.events-header-parent,
+.opportunities-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.events-header-parent {
+  width: 1280px;
+  align-items: flex-start;
+  gap: 60px;
+}
+.opportunities-content {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-9xl);
+}
+.opportunities-content-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 99px var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-size);
+  color: var(--colors-black-900);
+  font-family: var(--body-text);
+}
+.heading {
+  width: 733px;
+  display: none;
+  max-width: 100%;
+}
+.progress-visual {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 24.9px rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.tracking-hours {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  z-index: 1;
+}
+.tracking-hours-wrapper {
+  width: 991px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.log-entries-child {
+  width: 375px;
+  height: 377px;
+  position: relative;
+  border-radius: var(--br-xs);
+  display: none;
+  max-width: 100%;
+}
+.volunteering-details {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  z-index: 1;
+}
+.log-entry-items {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  font-size: var(--font-size-5xl);
+}
+.place-nairobi-usiu-africa {
+  width: 290px;
+}
+.event-usiu-freida,
+.hours-4-hours,
+.place-nairobi-usiu-africa {
+  height: 31px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.event-usiu-freida {
+  align-self: stretch;
+}
+.hours-4-hours {
+  width: 278px;
+}
+.hours-info,
+.log-entries {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.log-entries {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-50xl) var(--padding-18xl) var(--padding-58xl)
+    var(--padding-19xl);
+  gap: var(--gap-20xl);
+  max-height: 90%;
+  overflow: auto;
+}
+.hours-info {
+  width: 375px;
+  box-shadow: 0 4px 14.9px rgba(0, 0, 0, 0.15);
+  flex-direction: row;
+  padding: 0;
+  opacity: 0.75;
+  z-index: 1;
+}
+.rectangle-icon {
+  width: 375px;
+  height: 377px;
+  position: relative;
+  border-radius: var(--br-xs);
+  display: none;
+  max-width: 100%;
+}
+.volunteering-details1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  z-index: 1;
+}
+.volunteering-details-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  font-size: var(--font-size-5xl);
+}
+.place-nairobi-hospital {
+  width: 290px;
+  height: 31px;
+}
+.event-cleaning-and,
+.hours-15-hours,
+.place-nairobi-hospital {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.event-cleaning-and {
+  align-self: stretch;
+  height: 61px;
+}
+.hours-15-hours {
+  width: 278px;
+  height: 31px;
+}
+.hour-logs,
+.hours-info1,
+.vector-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.vector-parent {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-50xl) var(--padding-18xl) var(--padding-58xl)
+    var(--padding-19xl);
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+  max-height: 90%;
+  overflow: auto;
+}
+.hour-logs,
+.hours-info1 {
+  flex-direction: row;
+}
+.hours-info1 {
+  width: 375px;
+  box-shadow: 0 4px 14.9px rgba(0, 0, 0, 0.15);
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  opacity: 0.75;
+  z-index: 1;
+}
+.hour-logs {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--body-text-size);
+}
+.tracking-details {
+  width: 1002px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 57px;
+  max-width: 100%;
+}
+.updateadmin {
+  position: relative;
+  font-size: var(--body-text-size);
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-whitesmoke);
+  text-align: center;
+}
+.button-container,
+.button7,
+.track-hours {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) 66px;
+  background-color: var(--color-darkslategray-100);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-xl);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.button-container,
+.track-hours {
+  width: 1002px;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.track-hours {
+  width: 1178px;
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-11xl) var(--padding-19xl)
+    var(--padding-xl);
+  position: relative;
+  gap: 84px;
+  background-image: url(./public/track-hours@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.divider,
+.track-hours-wrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.track-hours-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 21px 306px var(--padding-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-size);
+  color: var(--colors-black-900);
+  font-family: var(--body-text);
+}
+.divider {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+}
+.connect-with-us {
+  position: relative;
+  line-height: 150%;
+}
+.buttons-icon,
+.buttons-icon1,
+.buttons-icon2,
+.buttons-icon3 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  min-height: 40px;
+}
+.connect-content,
+.connect-content-wrapper,
+.social-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.social-icons {
+  flex-direction: row;
+  gap: 8px;
+}
+.connect-content,
+.connect-content-wrapper {
+  flex-direction: column;
+}
+.connect-content {
+  gap: 88px;
+}
+.connect-content-wrapper {
+  padding: var(--padding-12xs) 0 0;
+}
+.mail-02-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.emailgmailcom {
+  position: relative;
+  line-height: 150%;
+  font-weight: 200;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contact-details {
+  width: 195.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div,
+.icon {
+  position: relative;
+}
+.icon {
+  height: 18.6px;
+  width: 18.6px;
+}
+.div {
+  line-height: 150%;
+  font-weight: 200;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contact-details1 {
+  width: 194.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.marker-pin-02-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.usiu-a-nairobi-kenya {
+  position: relative;
+  line-height: 150%;
+  font-weight: 200;
+  z-index: 1;
+}
+.contact-details2,
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-details2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contact-info {
+  width: 236px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-base);
+}
+.footer-content,
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-info {
+  width: 1162px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.footer-content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 49px;
+}
+.footer1,
+.home {
+  display: flex;
+  box-sizing: border-box;
+}
+.footer1 {
+  width: 1318px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--colors-black-900);
+  font-family: var(--body-text);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 48px;
+  gap: var(--gap-43xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .hero-content-inner {
+    flex: 1;
+  }
+  .category-items,
+  .hero-content {
+    flex-wrap: wrap;
+  }
+  .categories {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .opportunities-content-wrapper {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .hero-content-inner {
+    min-width: 100%;
+  }
+  .cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(289px, 500px));
+  }
+  .opportunities-content-wrapper {
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+  .hour-logs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .track-hours {
+    gap: 42px;
+  }
+  .track-hours-wrapper {
+    padding-bottom: 199px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home-content-wrapper {
+    display: none;
+  }
+  .navigation {
+    padding-left: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .find-opportunities-to-container {
+    font-size: var(--font-size-10xl);
+    line-height: 43px;
+  }
+  .frame-container {
+    gap: 17px;
+  }
+  .image-2-icon {
+    min-width: 100%;
+  }
+  .hero-content-wrapper {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    padding-bottom: 51px;
+    box-sizing: border-box;
+  }
+  .find-volunteer-opportunities {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .category-items {
+    gap: var(--gap-20xl);
+  }
+  .category-list {
+    gap: 38px;
+  }
+  .current-events {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .cards {
+    gap: var(--spacing-sm);
+    padding-bottom: 49px;
+    box-sizing: border-box;
+    grid-template-columns: minmax(289px, 1fr);
+  }
+  .events-header-parent {
+    gap: var(--gap-11xl);
+  }
+  .tracking-hours {
+    font-size: var(--font-size-13xl);
+    line-height: 48px;
+  }
+  .tracking-details {
+    gap: var(--gap-9xl);
+  }
+  .track-hours {
+    gap: var(--gap-2xl);
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .track-hours-wrapper {
+    padding-bottom: 129px;
+    box-sizing: border-box;
+  }
+  .footer-info {
+    flex-wrap: wrap;
+  }
+  .footer-content {
+    gap: var(--gap-5xl);
+  }
+  .home {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigation {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .discover {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .find-opportunities-to-container {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .find-volunteer-opportunities {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .childrens-homes,
+  .elderly-homes,
+  .hospitals-clinics {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .category-items {
+    gap: var(--gap-lgi);
+  }
+  .button5 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .category-list {
+    gap: var(--gap-lgi);
+  }
+  .current-events {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .date-20062024,
+  .location-nairobi-karura,
+  .planting-trees,
+  .time-1000-am {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .events1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .childrens-clothes-donation,
+  .date-12062024,
+  .location-nairobi-zimmerman,
+  .time-0700-to {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .events2 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .date-200620241,
+  .location-nairobi-roysambu,
+  .time-1000pm,
+  .usiu-frieda-browns {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .events3 {
+    padding-top: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+    box-sizing: border-box;
+  }
+  .opportunities-content-wrapper {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .tracking-hours {
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+  }
+  .volunteering-details {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .event-usiu-freida,
+  .hours-4-hours,
+  .place-nairobi-usiu-africa {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .log-entries {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .volunteering-details1 {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .event-cleaning-and,
+  .hours-15-hours,
+  .place-nairobi-hospital {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .vector-parent {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .updateadmin {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .button7 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .connect-with-us {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .home {
+    gap: 15px;
+  }
+}
