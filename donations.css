@@ -1,3 +1,6 @@
+.donations{
+  height: 100vh;
+}
 .home-find-organizations {
   margin: 0;
   font-size: inherit;
@@ -12,46 +15,33 @@
   line-height: 150%;
   font-weight: 600;
 }
-.header-content,
-.header-content-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.header-content {
-  align-self: stretch;
-  flex-direction: row;
-  gap: var(--gap-29xl);
-}
-.header-content-wrapper {
-  width: 609px;
-  flex-direction: column;
-  padding: 12.5px 0 0;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.logo-1-icon {
-  height: 80px;
-  width: 85px;
-  position: relative;
-  object-fit: cover;
-}
-.navigation {
+.navigation2 {
   align-self: stretch;
   background-color: var(--color-cadetblue);
-  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
-  padding: var(--padding-13xl) 132px var(--padding-24xl) var(--padding-30xl);
+  justify-content: center;
+  padding: var(--padding-9xl) var(--padding-xl) 27px 23px;
   box-sizing: border-box;
-  max-width: 100%;
-  gap: var(--gap-xl);
-  text-align: left;
-  font-size: var(--font-size-6xl);
+  gap: 165px;
+  top: 0; /* This is now redundant with position: fixed; */
+  z-index: 99;
+  position: sticky; /* Changed from sticky to fixed */
+  max-width: 1000%;
+  text-align:right;
+  font-size: var(--body-text-size);
   color: var(--white);
   font-family: var(--body-text);
+  left: 30;
+}
+
+
+.logo-1-icon {
+  height: 71px;
+  width: 68px;
+  position: relative;
+  object-fit: cover;
 }
 .unsplashm-4lfg1xfag,
 .unsplashm-4lfg1xfag-icon {
@@ -500,3 +490,7 @@
     gap: var(--gap-5xl);
   }
 }
+@media screen and (max-width: 1275px) {
+  .navigation2 {
+    gap: 3241px;
+  }}

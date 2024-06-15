@@ -279,65 +279,33 @@
     </div>
 
     <script>
-      var homeText = document.getElementById("homeText");
-      if (homeText) {
-        homeText.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='section1Container']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var findOrganizationsText = document.getElementById("findOrganizationsText");
-      if (findOrganizationsText) {
-        findOrganizationsText.addEventListener("click", function () {
-          var anchor = document.querySelector(
-            "[data-scroll-to='opportunitiesContainer']"
-          );
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var eventsText = document.getElementById("eventsText");
-      if (eventsText) {
-        eventsText.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='eventsContainer']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var donateText = document.getElementById("donateText");
-      if (donateText) {
-        donateText.addEventListener("click", function (e) {
-          window.location.href = "./donations.html";
-        });
-      }
-      
-      var learnMoreText = document.getElementById("learnMoreText");
-      if (learnMoreText) {
-        learnMoreText.addEventListener("click", function (e) {
-          // Please sync "Organisations" to the project
-        });
-      }
-      
-      var button1 = document.getElementById("button1");
-      if (button1) {
-        button1.addEventListener("click", function (e) {
-          window.location.href = "./opportunity-volunteer-form.html";
-        });
-      }
-      
-      var buttonContainer = document.getElementById("buttonContainer");
-      if (buttonContainer) {
-        buttonContainer.addEventListener("click", function (e) {
-          window.location.href = "./opportunity-volunteer-form.html";
-        });
-      }
+      document.addEventListener("DOMContentLoaded", function() {
+  const scrollToSection = (event, selector) => {
+    event.preventDefault();
+    const anchor = document.querySelector(selector);
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  };
+
+  const addClickListener = (id, callback) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.addEventListener("click", callback);
+    }
+  };
+
+  addClickListener("homeText", (e) => scrollToSection(e, "[data-scroll-to='section1Container']"));
+  addClickListener("findOrganizationsText", (e) => scrollToSection(e, "[data-scroll-to='opportunitiesContainer']"));
+  addClickListener("eventsText", (e) => scrollToSection(e, "[data-scroll-to='eventsContainer']"));
+  addClickListener("donateText", () => window.location.href = "./donations.html");
+  addClickListener("learnMoreText", () => {
+    // Please sync "Organisations" to the project
+  });
+  addClickListener("button1", () => window.location.href = "./opportunity-volunteer-form.html");
+  addClickListener("buttonContainer", () => window.location.href = "./opportunity-volunteer-form.html");
+});
+
       </script>
   </body>
 </html>

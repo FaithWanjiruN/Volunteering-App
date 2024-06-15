@@ -1,3 +1,4 @@
+
 .find-organizations,
 .home1 {
   position: relative;
@@ -7,7 +8,7 @@
 }
 .home1 {
   display: inline-block;
-  min-width: 57px;
+  min-width: 100px;
 }
 .find-organizations {
   white-space: nowrap;
@@ -15,8 +16,8 @@
 .home-navigation-links {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 var(--padding-xl) 0 0;
 }
 .events2 {
@@ -45,10 +46,10 @@
 .home-navigation,
 .navigation-menu {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .navigation-menu {
-  align-self: stretch;
+  align-self: center;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
@@ -74,30 +75,33 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-9xl) var(--padding-xl) 27px 22px;
+  padding: var(--padding-9xl) var(--padding-xl) 27px 23px;
   box-sizing: border-box;
-  gap: 642px;
-  top: 0;
+  gap: 1265px;
+  top: 0; /* This is now redundant with position: fixed; */
   z-index: 99;
-  position: sticky;
-  max-width: 100%;
-  text-align: left;
+  position: sticky; /* Changed from sticky to fixed */
+  max-width: 1000%;
+  text-align: center;
   font-size: var(--body-text-size);
   color: var(--white);
   font-family: var(--body-text);
+  left: 30;
 }
+
 .discover {
   align-self: stretch;
   position: relative;
   line-height: 31px;
-  font-weight: 300;
+  font-weight: 400;
+  left: 120px;
 }
 .find-opportunities-to,
 .volunteer-and-give {
   margin: 0;
 }
 .find-opportunities-to-container1 {
-  width: 100%;
+  width: 1000%;
 }
 .find-opportunities-to-container {
   margin: 0;
@@ -112,6 +116,7 @@
   align-items: center;
   flex-shrink: 0;
   max-width: 100%;
+  left: 120px;
 }
 .discover-parent {
   align-self: stretch;
@@ -123,13 +128,14 @@
   max-width: 100%;
 }
 .discover-local-volunteer {
-  width: 514px;
+  width: 604px;
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: 23;
   line-height: 150%;
   display: flex;
   align-items: center;
   max-width: 100%;
+  left: 120px;
 }
 .volunteer-opportunities {
   align-self: stretch;
@@ -137,15 +143,16 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 18px;
+  gap: 20px;
   max-width: 100%;
+  left: 120px;
 }
 .learn-more {
   position: relative;
   font-size: var(--body-text-size);
   letter-spacing: 0.05em;
   line-height: 150%;
-  font-weight: 900;
+  font-weight: 700;
   font-family: var(--body-text);
   color: var(--color-whitesmoke);
   text-align: center;
@@ -196,24 +203,24 @@
 .volunteer-opportunities-parent {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000%;
 }
 .volunteer-opportunities-parent {
   align-self: stretch;
-  gap: 65px;
+  gap: 95px;
 }
 .section-1-inner {
   flex: 1;
-  padding: var(--padding-18xl) 0 0;
+  padding: var(--padding-18xl) 0 5;
   box-sizing: border-box;
-  min-width: 398px;
+  min-width: 708px;
+  
 }
 .image-2-icon,
 .section-1 {
   overflow: hidden;
-  max-width: 100%;
 }
 .image-2-icon {
   height: 571px;
@@ -221,48 +228,52 @@
   position: relative;
   border-radius: var(--br-xs);
   object-fit: cover;
-  min-width: 404px;
+  min-width: 504px;
+  left: 150px;
 }
+
 .section-1 {
-  width: 1394px;
+  width: 1644px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: var(--padding-43xl) 80px var(--padding-26xl);
   box-sizing: border-box;
-  row-gap: 20px;
+  row-gap: 2px;
 }
 .find-volunteer-opportunities {
-  margin: 0;
-  width: 794px;
+  margin: 7;
+  width: 10394px;
   position: relative;
   font-size: inherit;
   line-height: 110%;
   font-weight: 600;
   font-family: inherit;
   display: inline-block;
-  flex-shrink: 0;
-  max-width: 100%;
+  align-items: center;
+  max-width: 1000%;
 }
 .opportunities-title {
-  width: 1228px;
+  width: 828px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 1000%;
+  
 }
 .filter-one {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fdfdfb;
-  width: 1306px;
-  height: 474px;
+  top: -10px;
+  left: 100;
+  background-color: #094739d0;
+  width: 2000px;
+  height: 594px;
+  border-radius: 15px;
 }
 .filter-options-icon,
 .filter-options-icon1,
@@ -289,32 +300,35 @@
 }
 .opportunities-images {
   align-self: stretch;
-  height: 504px;
+  height: 524px;
   position: relative;
+  left: 150px;
+  width: 100%;
+  
 }
 .childrens-homes {
   align-self: stretch;
   position: relative;
-  line-height: 110%;
+  line-height: 0;
   font-weight: 600;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
 .category-items {
-  width: 344px;
+  width: 300px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-8xs) 0 0;
-  box-sizing: border-box;
-  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+
 }
 .hospitals-clinics {
-  align-self: stretch;
-  position: relative;
-  line-height: 110%;
+  align-self: center;
+  position:relative;
+  line-height: 0;
   font-weight: 600;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 0;
 }
 .category-items1 {
   width: 358px;
@@ -329,7 +343,7 @@
 .elderly-homes {
   width: 344px;
   position: relative;
-  line-height: 110%;
+  line-height: 0%;
   font-weight: 600;
   display: inline-block;
   flex-shrink: 0;
@@ -340,26 +354,27 @@
 .opportunity-categories {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
+  align-items: center;
+  max-width: 1000%;
 }
 .category-list {
-  justify-content: flex-start;
-  gap: var(--gap-59xl);
+  justify-content: center;
+  gap: 9px;
+  
 }
 .opportunity-categories {
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 48px 0 var(--padding-37xl);
   box-sizing: border-box;
   font-size: var(--font-size-5xl);
 }
 .opportunities-intro {
-  width: 1306px;
+  width: 1606px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: var(--gap-10xl);
+  gap: var(--gap-90xl);
   max-width: 100%;
 }
 .volunteer-now {
@@ -371,12 +386,16 @@
   font-family: var(--body-text);
   color: var(--color-darkslategray-100);
   text-align: center;
+  left: 150px;
 }
 .button6,
 .volunteer-now-button {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  
 }
 .button6 {
   cursor: pointer;
@@ -385,19 +404,22 @@
   background-color: var(--white);
   box-shadow: var(--button-shadow);
   border-radius: var(--br-3xs);
-  justify-content: flex-start;
+  justify-content: center;
   white-space: nowrap;
 }
 .button6:hover {
   background-color: #e6e6e6;
   border: 3px solid var(--color-teal);
   box-sizing: border-box;
+  
+
 }
 .volunteer-now-button {
-  width: 1300px;
+  width: 1200px;
   justify-content: center;
-  max-width: 100%;
-}
+  
+  
+} 
 .opportunities {
   flex: 1;
   background-color: var(--white);
@@ -405,7 +427,7 @@
   flex-direction: column;
   padding: 81px var(--padding-9xl) var(--padding-32xl);
   gap: 76px;
-  max-width: 100%;
+  max-width: 200%;
 }
 .opportunities,
 .opportunities-wrapper,
@@ -437,8 +459,15 @@
   display: none;
   max-width: 100%;
 }
+.events-header{
+ margin-left: 200px;
+ 
+}
+.opportunities-wrapper{
+  margin-left: 150px;
+}
 .current-events {
-  width: 794px;
+  width: 894px;
   position: relative;
   line-height: 110%;
   font-weight: 600;
@@ -999,7 +1028,7 @@
 }
 @media screen and (max-width: 1275px) {
   .navigation2 {
-    gap: 321px;
+    gap: 3241px;
   }
   .section-1 {
     padding-left: var(--padding-21xl);
@@ -1008,6 +1037,7 @@
   }
   .category-list {
     flex-wrap: wrap;
+    left: 150px;
   }
   .opportunity-categories {
     padding-left: var(--padding-9xl);

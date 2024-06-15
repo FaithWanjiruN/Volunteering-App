@@ -8,14 +8,14 @@
   position: absolute;
   margin: 0 !important;
   top: -1px;
-  left: -1px;
+  left: -100px;
   background-color: var(--color-gray);
 }
 .unsplashsyto3xs06fu-icon {
   height: 822px;
   flex: 1;
   position: relative;
-  max-width: 65%;
+  max-width: 55%;
   overflow: hidden;
   object-fit: cover;
   mix-blend-mode: soft-light;
