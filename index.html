@@ -76,50 +76,32 @@
                 </div>
                 <div class="input-fields">
                   <div class="icons-parent">
-                    <img
-                      class="icons2"
-                      loading="lazy"
-                      alt=""
-                      src="./public/icons-1.svg"
-                    />
-
+                    <img class="icons2" loading="lazy" alt="" src="./public/icons-1.svg" />
                     <div class="username-password-input-wrapper">
                       <div class="username-password-input">
-                        <div class="choose-a-username">CHOOSE A USERNAME</div>
+                        <input type="text" id="username" name="username" placeholder="USERNAME" />
                         <div class="input-dividers"></div>
                       </div>
                     </div>
                   </div>
                   <div class="icons-group">
-                    <img
-                      class="icons3"
-                      loading="lazy"
-                      alt=""
-                      src="./public/icons-2.svg"
-                    />
-
+                    <img class="icons3" loading="lazy" alt="" src="./public/icons-2.svg" />
                     <div class="frame-wrapper">
                       <div class="choose-a-password-parent">
-                        <div class="choose-a-password">CHOOSE A PASSWORD</div>
+                        <input type="password" id="password" name="password" placeholder="PASSWORD" />
                         <div class="frame-item"></div>
                       </div>
                     </div>
                   </div>
                   <div class="repeat-password">
-                    <img
-                      class="icons4"
-                      loading="lazy"
-                      alt=""
-                      src="./public/icons-2.svg"
-                    />
-
+                    <img class="icons4" loading="lazy" alt="" src="./public/icons-2.svg" />
                     <div class="repeat-password-input">
-                      <div class="repeat-your-password">
-                        REPEAT YOUR PASSWORD
-                      </div>
+                      <input type="password" id="repeatPassword" name="repeatPassword" placeholder="REPEAT YOUR PASSWORD" />
                       <div class="repeat-input-divider"></div>
                     </div>
                   </div>
+                </div>
+                
                   <div class="submit-button">
                     <div class="submit-button-component">
                       <button class="component-3" id="component3">
@@ -147,6 +129,17 @@
     </div>
 
     <script>
+
+      document.getElementById("repeatPassword").addEventListener("input", function () {
+        const password = document.getElementById("password");
+        const repeatPassword = this;
+        if (password.value!== repeatPassword.value) {
+          repeatPassword.setCustomValidity("Passwords don't match.");
+        } else {
+          repeatPassword.setCustomValidity("");
+        }
+      });
+
       var component3 = document.getElementById("component3");
       if (component3) {
         component3.addEventListener("click", function (e) {
