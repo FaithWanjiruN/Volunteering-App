@@ -192,7 +192,6 @@
   width: 653px;
   gap: 34px;
   flex-shrink: 0;
-  debug_commit: 69da668;
   max-width: 107%;
 }
 .hero-content-inner {
@@ -212,7 +211,6 @@
   object-fit: cover;
   min-width: 404px;
   flex-shrink: 0;
-  debug_commit: 69da668;
   z-index: 1;
 }
 .hero-content,
