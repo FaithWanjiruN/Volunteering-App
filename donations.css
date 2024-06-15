@@ -1,13 +1,13 @@
-.home-find-organizations1 {
+.home-find-organizations {
   margin: 0;
   font-size: inherit;
   font-family: inherit;
   white-space: pre-wrap;
   flex-shrink: 0;
 }
-.donate2,
-.events5,
-.home-find-organizations1 {
+.donate1,
+.events4,
+.home-find-organizations {
   position: relative;
   line-height: 150%;
   font-weight: 600;
@@ -30,13 +30,13 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.logo-1-icon2 {
+.logo-1-icon1 {
   height: 80px;
   width: 85px;
   position: relative;
   object-fit: cover;
 }
-.navigation2 {
+.navigation1 {
   align-self: stretch;
   background-color: var(--color-cadetblue);
   overflow: hidden;
@@ -44,7 +44,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  padding: var(--padding-13xl) 132px var(--padding-24xl) var(--padding-30xl);
+  padding: var(--padding-13xl) 132px 43px var(--padding-30xl);
   box-sizing: border-box;
   max-width: 100%;
   gap: var(--gap-xl);
@@ -270,7 +270,7 @@
   color: var(--gray-2);
   text-align: left;
 }
-.frame-parent3 {
+.frame-parent2 {
   flex: 0.9327;
   border-radius: var(--br-8xs);
   background-color: #d6f7e4;
@@ -283,7 +283,7 @@
   gap: var(--gap-3xs);
   min-width: 159px;
 }
-.frame-child2 {
+.frame-child1 {
   height: 20px;
   width: 20px;
   position: relative;
@@ -304,7 +304,7 @@
   min-width: 44px;
   padding: 0;
 }
-.frame-parent4 {
+.frame-parent3 {
   flex: 1;
   border-radius: var(--br-8xs);
   background-color: var(--ss-grey);
@@ -319,8 +319,8 @@
 }
 .donation-options,
 .donation-type1,
-.form-container1,
-.frame-parent2 {
+.form-container,
+.frame-parent1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -330,14 +330,14 @@
 }
 .donation-options,
 .donation-type1,
-.form-container1 {
+.form-container {
   flex-direction: column;
 }
 .donation-options,
-.form-container1 {
+.form-container {
   gap: var(--gap-11xl);
 }
-.form-container1 {
+.form-container {
   max-width: 100%;
 }
 .cancel {
@@ -381,7 +381,7 @@
 .buttons1 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-base) 55px;
+  padding: var(--padding-base) var(--padding-36xl);
   background-color: var(--color-darkslategray-100);
   border-radius: var(--br-7xs);
   align-items: center;
@@ -457,7 +457,7 @@
   .header-content {
     gap: var(--gap-5xl);
   }
-  .navigation2 {
+  .navigation1 {
     padding-left: var(--padding-5xl);
     padding-right: var(--padding-47xl);
     box-sizing: border-box;
@@ -466,7 +466,7 @@
     min-width: 100%;
   }
   .action-buttons,
-  .frame-parent2 {
+  .frame-parent1 {
     flex-wrap: wrap;
   }
   .action-buttons,
@@ -484,7 +484,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .navigation2 {
+  .navigation1 {
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
@@ -493,7 +493,7 @@
   .ksh-5000 {
     font-size: var(--font-size-lgi);
   }
-  .frame-parent3 {
+  .frame-parent2 {
     flex: 1;
   }
   .donations {

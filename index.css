@@ -1,46 +1,41 @@
-.sign-up{
-  height: 100vh;
-  
-}
 .frame-child {
-  height: 822px;
+  height: 858px;
   width: 1234px;
   position: absolute;
   margin: 0 !important;
-  top: -1px;
+  top: -3px;
   left: -1px;
   background-color: var(--color-gray);
 }
 .unsplashsyto3xs06fu-icon {
-  height: 822px;
+  height: 856px;
   flex: 1;
   position: relative;
-  max-width: 65%;
+  max-width: 100%;
   overflow: hidden;
   object-fit: cover;
   mix-blend-mode: soft-light;
   z-index: 1;
-  
 }
 .rectangle-parent {
-  
   width: 100%;
   margin: 0 !important;
   position: absolute;
-  top: 100px;
-  left: 100px;
+  top: 3px;
+  left: 1px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
-  height: 920px;
+  height: 100%;
+  max-height: 90%;
   overflow: auto;
 }
 .lets-help-you {
   margin: 0;
   align-self: stretch;
-  height: 285px;
+  height: 215px;
   position: relative;
   font-size: inherit;
   font-weight: 600;
@@ -49,7 +44,6 @@
   align-items: center;
   flex-shrink: 0;
   z-index: 4;
-  left: 50px;
 }
 .icons {
   height: 24px;
@@ -57,12 +51,11 @@
   overflow: hidden;
   flex-shrink: 0;
   display: none;
-  left: 50px;
 }
 .button,
 .icons,
 .icons1 {
-  left: 500px;
+  position: relative;
 }
 .button {
   text-decoration: none;
@@ -76,7 +69,6 @@
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-  left: 0px;
 }
 .icons1 {
   width: 24px;
@@ -102,7 +94,6 @@
   gap: var(--gap-3xs);
   opacity: 0.7;
   z-index: 2;
-  left: 500px;
 }
 .component-2,
 .component-2-wrapper,
@@ -112,11 +103,10 @@
   justify-content: flex-start;
 }
 .component-2-wrapper {
-  width: 26px;
+  width: 236px;
   flex-direction: row;
-  padding: 0 50px;
+  padding: 0 var(--padding-base);
   box-sizing: border-box;
-  
 }
 .volunteer-title {
   align-self: stretch;
@@ -170,39 +160,27 @@
 }
 .login-form {
   width: 575px;
-  padding: 0 0 13px;
+  padding: 0 0 134px;
   box-sizing: border-box;
   min-width: 575px;
   min-height: 576px;
 }
 .signup-illustration-child {
   width: 592px;
-  height: 500px;
+  height: 857px;
   position: relative;
-  background-color: (--white);
+  background-color: var(--white);
   display: none;
-  max-width: 30%;
+  max-width: 100%;
 }
 .evamenu-fill-icon {
-  width: 20px;
-  height: 10%;
+  width: 30px;
+  height: 30px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
-  z-index: 9;
-
+  z-index: 3;
 }
-.signup-call-to-action {
-  display: flex;
-  flex-direction: column; /* Explicitly set to column if your layout requires vertical centering */
-  justify-content: center; /* Centers children horizontally */
-  align-items: center; /* Centers children vertically */
-  box-sizing: border-box;
-  max-width: 90%;
- 
-}
-
-
 .sign-up-to {
   margin: 0;
   flex: 1;
@@ -210,11 +188,21 @@
   font-size: inherit;
   font-weight: 800;
   font-family: inherit;
+  white-space: pre-wrap;
   display: inline-block;
   max-width: 100%;
-  text-decoration: underline;
+  z-index: 4;
 }
-
+.signup-call-to-action {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl) 0 var(--padding-10xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
 .icons2 {
   height: 30px;
   width: 30px;
@@ -225,7 +213,7 @@
   z-index: 4;
 }
 .choose-a-username {
-  height: 20px;
+  height: 27px;
   position: relative;
   font-weight: 600;
   display: flex;
@@ -233,20 +221,14 @@
   justify-content: center;
   z-index: 3;
 }
-input[type="text"],
-input[type="password"] {
-  border: none; /* Removes the border */
-  outline: none; /* Removes the focus outline */
-  /* Add any other styling as needed */
-}
 .input-dividers {
   align-self: stretch;
- 
+  height: 1px;
   position: relative;
   border-top: 1px solid var(--colors-black-900);
   box-sizing: border-box;
-  z-index: 2;
-  
+  z-index: 4;
+  margin-top: -1px;
 }
 .username-password-input {
   align-self: stretch;
@@ -559,19 +541,12 @@ input[type="password"] {
   line-height: normal;
   letter-spacing: normal;
 }
-@media (min-width: 1500px) {
-  .sign-up{
-    padding: 0;
-
-  }
+@media screen and (max-width: 1200px) {
   .frame-parent {
-     width: 90%;
-     height: 1010px;
-     padding: 80px;
-          
-   }
- }
- 
+    padding-left: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
 @media screen and (max-width: 1050px) {
   .lets-help-you {
     font-size: var(--font-size-19xl);
@@ -613,8 +588,8 @@ input[type="password"] {
   }
   .signup-illustration {
     gap: 87px;
-    padding-left: 10%;
-    
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
     box-sizing: border-box;
     min-width: 100%;
   }
@@ -640,7 +615,6 @@ input[type="password"] {
   }
   .signup-call-to-action-parent {
     gap: var(--gap-12xl);
-
   }
   .signup-illustration {
     gap: 44px;
@@ -649,7 +623,7 @@ input[type="password"] {
     box-sizing: border-box;
   }
   .sign-up {
-    padding-top: 10px;
+    padding-top: var(--padding-15xl);
     padding-bottom: var(--padding-15xl);
     box-sizing: border-box;
   }
