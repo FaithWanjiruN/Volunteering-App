@@ -86,7 +86,7 @@
   font-size: var(--body-text-size);
   color: var(--white);
   font-family: var(--body-text);
-  left: 30;
+  
 }
 
 .discover {
@@ -101,7 +101,7 @@
   margin: 0;
 }
 .find-opportunities-to-container1 {
-  width: 1000%;
+  width: 100%;
 }
 .find-opportunities-to-container {
   margin: 0;
@@ -205,7 +205,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1000%;
+  max-width: 100%;
 }
 .volunteer-opportunities-parent {
   align-self: stretch;
@@ -253,25 +253,30 @@
   font-family: inherit;
   display: inline-block;
   align-items: center;
-  max-width: 1000%;
+  max-width: 100%;
+}
+.opportunities-wrapper {
+  width: 100%;
+ 
+  
 }
 .opportunities-title {
-  width: 828px;
+  width: 1128px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
-  max-width: 1000%;
+  max-width: 100%;
   
 }
 .filter-one {
   position: absolute;
   top: -10px;
-  left: 100;
-  background-color: #094739d0;
-  width: 2000px;
+  left: 90px;
+  background-color: #0947378c;
+  width: 1100px;
   height: 594px;
   border-radius: 15px;
 }
@@ -281,11 +286,16 @@
   position: absolute;
   top: 18px;
   left: 35px;
-  border-radius: var(--br-xs);
+  border-radius: 20px;
   width: 392px;
   height: 486px;
   object-fit: cover;
   z-index: 1;
+  transition: transform 0.3s ease-in-out;
+  
+}
+.filter-two-icon:hover{
+  transform: scale(1.05);
 }
 .filter-options-icon,
 .filter-options-icon1 {
@@ -293,10 +303,19 @@
   left: 468px;
   width: 393px;
   height: 485px;
+  transition: transform 0.3s ease-in-out;
 }
+.filter-options-icon:hover{
+  transform: scale(1.05);
+}
+
 .filter-options-icon1 {
   left: 902px;
-  width: 373px;
+  width: 353px;
+  transition: transform 0.3s ease-in-out;
+}
+.filter-options-icon1:hover{
+  transform: scale(1.05);
 }
 .opportunities-images {
   align-self: stretch;
