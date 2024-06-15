@@ -5,8 +5,8 @@
   white-space: pre-wrap;
   flex-shrink: 0;
 }
-.donate1,
-.events4,
+.donate,
+.events,
 .home-find-organizations {
   position: relative;
   line-height: 150%;
@@ -30,13 +30,13 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.logo-1-icon1 {
+.logo-1-icon {
   height: 80px;
   width: 85px;
   position: relative;
   object-fit: cover;
 }
-.navigation1 {
+.navigation {
   align-self: stretch;
   background-color: var(--color-cadetblue);
   overflow: hidden;
@@ -44,7 +44,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  padding: var(--padding-13xl) 132px 43px var(--padding-30xl);
+  padding: var(--padding-13xl) 132px var(--padding-24xl) var(--padding-30xl);
   box-sizing: border-box;
   max-width: 100%;
   gap: var(--gap-xl);
@@ -270,7 +270,7 @@
   color: var(--gray-2);
   text-align: left;
 }
-.frame-parent2 {
+.frame-div {
   flex: 0.9327;
   border-radius: var(--br-8xs);
   background-color: #d6f7e4;
@@ -304,7 +304,7 @@
   min-width: 44px;
   padding: 0;
 }
-.frame-parent3 {
+.frame-parent1 {
   flex: 1;
   border-radius: var(--br-8xs);
   background-color: var(--ss-grey);
@@ -320,7 +320,7 @@
 .donation-options,
 .donation-type1,
 .form-container,
-.frame-parent1 {
+.frame-container {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -457,16 +457,16 @@
   .header-content {
     gap: var(--gap-5xl);
   }
-  .navigation1 {
+  .navigation {
     padding-left: var(--padding-5xl);
-    padding-right: var(--padding-47xl);
+    padding-right: 66px;
     box-sizing: border-box;
   }
   .unsplashm-4lfg1xfag-parent {
     min-width: 100%;
   }
   .action-buttons,
-  .frame-parent1 {
+  .frame-container {
     flex-wrap: wrap;
   }
   .action-buttons,
@@ -484,7 +484,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .navigation1 {
+  .navigation {
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
@@ -493,7 +493,7 @@
   .ksh-5000 {
     font-size: var(--font-size-lgi);
   }
-  .frame-parent2 {
+  .frame-div {
     flex: 1;
   }
   .donations {
