@@ -38,9 +38,9 @@
   overflow: auto;
 }
 .lets-help-you {
-  margin: 0;
+  margin: 1;
   align-self: stretch;
-  height: 215px;
+  height: 285px;
   position: relative;
   font-size: inherit;
   font-weight: 600;
