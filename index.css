@@ -38,7 +38,7 @@
   overflow: auto;
 }
 .lets-help-you {
-  margin: 1;
+  margin: 0;
   align-self: stretch;
   height: 285px;
   position: relative;
@@ -212,6 +212,7 @@
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
+  text-decoration: underline;
 }
 
 .icons2 {
