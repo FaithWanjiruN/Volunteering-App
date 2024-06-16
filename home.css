@@ -164,7 +164,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-sm) var(--padding-4xl);
-  background-color: var(--color-darkslategray-100);
+  background-color: var(--color-teal);
   box-shadow: var(--button-shadow);
   border-radius: var(--br-xl);
   display: flex;
@@ -174,7 +174,8 @@
   white-space: nowrap;
 }
 .button5:hover {
-  background-color: var(--color-teal);
+  background-color: #679A8C;
+ 
 }
 .forward-icon {
   width: 24px;
@@ -439,7 +440,7 @@
   
 }
 .button6:hover {
-  background-color: #dce9e6;
+  background-color: #679A8C;
   border: 3px solid var(--color-teal);
   box-sizing: border-box;
   
@@ -680,6 +681,13 @@
   padding: var(--padding-3xs) var(--padding-xl);
   white-space: nowrap;
   cursor: pointer;
+}
+.button7:hover {
+  background-color: #679A8C;
+  border: 3px solid var(--color-teal);
+  box-sizing: border-box;
+  
+
 }
 .events-list,
 .events3,

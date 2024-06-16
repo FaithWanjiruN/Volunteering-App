@@ -28,18 +28,18 @@
   top: 0; /* This is now redundant with position: fixed; */
   z-index: 99;
   position: sticky; /* Changed from sticky to fixed */
-  max-width: 1000%;
+  max-width: 100%;
   text-align:right;
   font-size: var(--body-text-size);
   color: var(--white);
   font-family: var(--body-text);
-  left: 30;
+ 
 }
 
 
 .logo-1-icon {
-  height: 71px;
-  width: 68px;
+  height: 1px;
+  width: 6px;
   position: relative;
   object-fit: cover;
 }
