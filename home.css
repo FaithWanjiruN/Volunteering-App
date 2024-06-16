@@ -486,12 +486,12 @@
   max-width: 100%;
 }
 .events-header{
- margin-left: 270px;
+ margin-left: 250px;
 
  
 }
 .opportunities-wrapper{
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .current-events {
   width: 894px;
@@ -546,10 +546,10 @@
   white-space: nowrap;
 }
 .events4 {
-  box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: -4px 8px 20px #679A8C;
   border-radius: var(--br-xs);
   background-color: var(--white);
-  border: 1px solid var(--color-whitesmoke);
+  border: 2px solid #679A8C;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -590,10 +590,10 @@
   flex-shrink: 0;
 }
 .events5 {
-  box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: -4px 8px 20px #679A8C;
   border-radius: var(--br-xs);
   background-color: var(--white);
-  border: 1px solid var(--color-whitesmoke);
+  border: 2px solid #679A8C;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -643,10 +643,10 @@
   max-width: 100%;
 }
 .events6 {
-  box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: -4px 8px 20px #679A8C;
   border-radius: var(--br-xs);
   background-color: var(--white);
-  border: 1px solid var(--color-whitesmoke);
+  border: 2px solid #679A8C;
   display: flex;
   flex-direction: column;
   padding: var(--padding-11xl) var(--padding-12xl) var(--padding-24xl);
