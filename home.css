@@ -661,14 +661,16 @@
   gap: var(--spacing-sm);
   grid-template-columns: repeat(3, minmax(289px, 1fr));
 }
+
 .more-events {
-  position: relative;
+  position: absolute;
   letter-spacing: 0.1em;
-  line-height: 150%;
+  line-height: 100%;
   font-weight: 800;
+  
 }
 .button7 {
-  width: 318px;
+  width: 218px;
   box-shadow: var(--button-shadow);
   border-radius: var(--br-3xs);
   background-color: var(--white);
@@ -676,14 +678,15 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: var(--padding-3xs) var(--padding-xl);
   white-space: nowrap;
   cursor: pointer;
+  
 }
 .button7:hover {
-  background-color: #679A8C;
+  background-color: #e6f5f1;
   border: 3px solid var(--color-teal);
   box-sizing: border-box;
   
@@ -697,14 +700,16 @@
   max-width: 100%;
 }
 .more-events-button {
-  width: 1168px;
+  width: 168px;
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
   text-align: center;
-  font-size: var(--body-text-size);
+  font-size: 12px;
   color: var(--color-darkslategray-100);
+  margin-left: 70px;
+  margin-top: 10px;
 }
 .events-list,
 .events3 {
