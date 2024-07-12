@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer Sign Up Form</title>
+  <link rel="stylesheet" href="volunteer-signup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Volunteer Sign Up Form</h1>
+    <p>You will be contacted when we receive your application. Your placement and work time will be confirmed 15 days prior to our event.</p>
+    <form>
+      <div class="input-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" placeholder="Enter Your First Name here">
+      </div>
+      <div class="input-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="Enter Your Last Name here">
+      </div>
+      <div class="input-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Enter your Email Address here">
+        <small>example@example.com</small>
+      </div>
+      <div class="input-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="+254">
+      </div>
+      <div class="input-group">
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="Input Value">
+        <small>Street Address</small>
+      </div>
+      <div class="input-group">
+        <input type="text" id="city" placeholder="Input Value">
+        <small>City</small>
+      </div>
+      <div class="input-group">
+        <input type="text" id="postal-code" placeholder="Input Value">
+        <small>Postal / Zip Code</small>
+      </div>
+      <div class="input-group">
+        <label>Are you over 18?</label>
+        <div class="radio-group">
+          <input type="radio" id="over18-yes" name="over18" value="yes">
+          <label for="over18-yes">Yes</label>
+          <input type="radio" id="over18-no" name="over18" value="no">
+          <label for="over18-no">No</label>
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Is your Company/Organization/Group Volunteering?</label>
+        <div class="radio-group">
+          <input type="radio" id="group-yes" name="group" value="yes">
+          <label for="group-yes">Yes</label>
+          <input type="radio" id="group-no" name="group" value="no">
+          <label for="group-no">No</label>
+        </div>
+      </div>
+      <div class="input-group">
+        <label for="company">Company/Group/Organization</label>
+        <input type="text" id="company" placeholder="Input Value">
+      </div>
+      <div class="input-group">
+        <label for="members">How many members are in your Group?</label>
+        <input type="text" id="members" placeholder="Input Value">
+      </div>
+      <div class="input-group">
+        <label for="photo">Do you have a photo of the group?</label>
+        <input type="file" id="photo" class="file-upload">
+        <small>Drag and drop files here</small>
+      </div>
+      <div class="input-group">
+        <label for="area">Preferred Area to Volunteer:</label>
+        <select id="area">
+          <option value="optionA">Option A</option>
+          <option value="optionB">Option B</option>
+          <option value="optionC">Option C</option>
+          <option value="optionD">Option D</option>
+          <option value="optionE">Option E</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="skill">What area of skill are you volunteering</label>
+        <select id="skill">
+          <option value="optionA">Option A</option>
+          <option value="optionB">Option B</option>
+          <option value="optionC">Option C</option>
+          <option value="optionD">Option D</option>
+          <option value="optionE">Option E</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
